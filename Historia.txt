@@ -22,3 +22,26 @@ git diff - para ver los cambios de un commit  a otro
 copiamos el codido del commit 1 espacio commmit2
 la version mas vieja de primera y la version mas reciente de segunda
 Asume que la primera es la original y la segunda es la más nueva
+
+Stagging es donde vamos a ir agregando los cambios donde se crea al repositorio
+una vez hecho el cambio, agregamos los cambios al stagging usando git add
+el archvio esta esperando en la memoria ram en el stagging.
+Usando el commit -m el arhivo se va al repositorio - tiene un nombre por defecto 
+llamado master.
+
+Untrack cuando no hemos hecho el git add (sint rastrear)
+una vez le damos add . esa modificacion se va al stagging
+
+Staging es un area de preparación es un area temporal antes de enviar los cambios al repesitorio
+commit -m pasan de estar trackeados en staging a trackeados en el repositorio
+
+para traer los commits a la carpeta usamos el 
+git checkout - traemos todos los cambios ciertos cambios.
+
+git reset HEAD: nos ayuda a sacar archivos del estado Staged para devolverlos a su estado anterior.
+Si los archivos venían de Unstaged, vuelven allí. Y lo mismo se venían de Untracked.
+
+git rm: este comando necesita alguno de los siguientes argumentos para poder ejecutarse correctamente:
+- git rm --cached: Mueve los archivos que le indiquemos al estado Untracked.
+- git rm --force: Elimina los archivos de Git y del disco duro. Git guarda el registro de la existencia 
+de los archivos, por lo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
