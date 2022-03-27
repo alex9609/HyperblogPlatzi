@@ -1,0 +1,3 @@
+Chached - significa que esta en memoria ram,
+git rm --Chached archivo nos sirve para borrar el archivo del add
+si en algún momento nos equivocamo
