@@ -17,3 +17,8 @@ si en algún momento nos equivocamo
 si solo escribimos git commit - automaticamente nos abre vim para escribir un mensaje
 en el commit - buenas practicas
 para salir de esta consola de vim escribimos esc+shift+zz
+
+git diff - para ver los cambios de un commit  a otro
+copiamos el codido del commit 1 espacio commmit2
+la version mas vieja de primera y la version mas reciente de segunda
+Asume que la primera es la original y la segunda es la más nueva
