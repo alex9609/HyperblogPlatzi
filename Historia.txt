@@ -14,3 +14,6 @@ Chached - significa que esta en memoria ram,
 git rm --Chached archivo nos sirve para borrar el archivo del add
 si en algún momento nos equivocamo
 
+si solo escribimos git commit - automaticamente nos abre vim para escribir un mensaje
+en el commit - buenas practicas
+para salir de esta consola de vim escribimos esc+shift+zz
