@@ -3,7 +3,12 @@ git status - para ver el estado actual del repositorio
 git log <file> - para ver la información del repositorio, como autor y techa
 git config - para editar las variables de entorno de github como usuario e email
 donde voy a trabajar.
-git show - para mostrar los cambios sobre un archivo
+git show - para mostrar los cambios sobre un archivo, muestra ultimo commit
+diff - version anterior y version nueva
+
+indicador de bytes @@ -1.5 +1.6 @@
+Cuando esta en rojo es porque hemos eliminado algo o cambiado esa linea de codigo
+En verde muestra los cmabios añadidos
 
 Chached - significa que esta en memoria ram,
 git rm --Chached archivo nos sirve para borrar el archivo del add
