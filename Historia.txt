@@ -62,3 +62,10 @@ git reset codigocommit --soft en el directorio de trabajo vuelve a la versión a
 este en staging listo para subir, quieto.
 
 tener cuidado porque aquí borramos todo lo que hayamos hecho en el commit
+
+git log --stat -> podremos ver los cambios especificos  que se hicieron en cuales archivos a partir del
+commit
+
+git checkout commit archivo podemos ver el archivo en su estado original
+git checkout master archivo  volvemos a la version master del archivo  actualizado
+
