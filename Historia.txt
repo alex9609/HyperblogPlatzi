@@ -69,3 +69,7 @@ commit
 git checkout commit archivo podemos ver el archivo en su estado original
 git checkout master archivo  volvemos a la version master del archivo  actualizado
 
+git reset HEAD -> Es el comando para sacar archivos del area de sating. No para borrarlos
+ni nada de eso, solo para que los últimos cambios de estes archivos no se envíen al último commit,
+a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add.
+
