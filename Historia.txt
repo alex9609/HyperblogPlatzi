@@ -79,3 +79,18 @@ git commit -am -> automaticamente hace el git add de los cambios, solo funciona 
 que previamente he hecho add, si creo un archivo completamente nuevo esto no va a funcionar.
 
 git checkout <branch> -> para cambiar el branch donde estemos trabajando
+
+git clone ulr -> con la direccion del repositorio remoto se trae una copia del master a mi carpeta
+y crea la base de datos de todos los cambios historicos en el repositorio y deja el staging quieto y listo
+
+cuando estoy listo para que la utima version de los commit se envie al repositorio donde todo el mundo trabajando
+hago un git pussh -> para enviar todo esto al servidor remoto y si hay conflictos
+lidio con ellos.
+
+git push - subir al repositorio remoto
+
+git fetch -> Traer una actualizacion, lo trae el repositorio local pero no lo copia en mis archivos,
+para que lo copi en mis archivos tengo que fusionar la ultima version del repositorio local con mi version actual
+git merge ->
+
+git pull -> Copio el repositorio local la base de datos de cambios y copia el directorio
