@@ -73,3 +73,10 @@ git reset HEAD -> Es el comando para sacar archivos del area de sating. No para 
 ni nada de eso, solo para que los últimos cambios de estes archivos no se envíen al último commit,
 a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add.
 
+El commit mas reciente es el HEAD.
+
+git commit -am -> automaticamente hace el git add de los cambios, solo funciona con archvios a los 
+que previamente he hecho add, si creo un archivo completamente nuevo esto no va a funcionar.
+
+
+
