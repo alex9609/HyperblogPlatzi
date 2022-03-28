@@ -78,5 +78,4 @@ El commit mas reciente es el HEAD.
 git commit -am -> automaticamente hace el git add de los cambios, solo funciona con archvios a los 
 que previamente he hecho add, si creo un archivo completamente nuevo esto no va a funcionar.
 
-
-
+git checkout <branch> -> para cambiar el branch donde estemos trabajando
