@@ -60,3 +60,5 @@ especifiquemos
 
 git reset codigocommit --soft en el directorio de trabajo vuelve a la versión anterior dejando lo que 
 este en staging listo para subir, quieto.
+
+tener cuidado porque aquí borramos todo lo que hayamos hecho en el commit
