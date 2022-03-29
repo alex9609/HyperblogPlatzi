@@ -78,8 +78,33 @@ El commit mas reciente es el HEAD.
 git commit -am -> automaticamente hace el git add de los cambios, solo funciona con archvios a los 
 que previamente he hecho add, si creo un archivo completamente nuevo esto no va a funcionar.
 
+<<<<<<< HEAD
 esc+i para poder escribir el texto en el vim
 
 esc+shift+zz -> para salir del vim cuando generemos i escribamos el codigo de manera autonomica con git commit -a
 
 la rama se creara desde el lugar donde estoy
+=======
+git checkout <branch> -> para cambiar el branch donde estemos trabajando
+
+git clone ulr -> con la direccion del repositorio remoto se trae una copia del master a mi carpeta
+y crea la base de datos de todos los cambios historicos en el repositorio y deja el staging quieto y listo
+
+cuando estoy listo para que la utima version de los commit se envie al repositorio donde todo el mundo trabajando
+hago un git pussh -> para enviar todo esto al servidor remoto y si hay conflictos
+lidio con ellos.
+
+git push - subir al repositorio remoto
+
+git fetch -> Traer una actualizacion, lo trae el repositorio local pero no lo copia en mis archivos,
+para que lo copi en mis archivos tengo que fusionar la ultima version del repositorio local con mi version actual
+git merge ->
+
+git pull -> Copio el repositorio local la base de datos de cambios y copia el directorio
+
+git merge -> un merge siempre va a ocurrir en donde estpy, para hacer un merge en la rama donde estoy
+si hago un merge estando en cabera con master, o que hago es enviar el ultimo commit del master hacia cabecera y se pierden 
+los anteriores commits del master.
+
+Si quiere que el merge se realice a la rama principal me ubico en esta rama y desde allí hago el merge
+>>>>>>> cabecera
