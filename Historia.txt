@@ -112,3 +112,6 @@ Si quiere que el merge se realice a la rama principal me ubico en esta rama y de
 =======
 Siempre el merge se realiza sobre la rama a la que queremos subir los merges
 >>>>>>> cabecera
+
+Hacer un merge alreves traer desde master a cabecera
+nos ubicamos en el branch de cabecera y hacemos el merge
