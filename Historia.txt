@@ -107,4 +107,8 @@ si hago un merge estando en cabera con master, o que hago es enviar el ultimo co
 los anteriores commits del master.
 
 Si quiere que el merge se realice a la rama principal me ubico en esta rama y desde allí hago el merge
+<<<<<<< HEAD
+>>>>>>> cabecera
+=======
+Siempre el merge se realiza sobre la rama a la que queremos subir los merges
 >>>>>>> cabecera
