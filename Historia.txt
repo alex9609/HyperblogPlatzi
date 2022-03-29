@@ -94,3 +94,9 @@ para que lo copi en mis archivos tengo que fusionar la ultima version del reposi
 git merge ->
 
 git pull -> Copio el repositorio local la base de datos de cambios y copia el directorio
+
+git merge -> un merge siempre va a ocurrir en donde estpy, para hacer un merge en la rama donde estoy
+si hago un merge estando en cabera con master, o que hago es enviar el ultimo commit del master hacia cabecera y se pierden 
+los anteriores commits del master.
+
+Si quiere que el merge se realice a la rama principal me ubico en esta rama y desde allí hago el merge
