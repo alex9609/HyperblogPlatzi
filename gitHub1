@@ -55,3 +55,22 @@ Agregar la llave a nuestros sistema
 
 Agregar la llave
 ssh-add ~/.ssh/id_rsa (depende donde guardemoos la llave ssh siempre agregar la llave privada)
+
+TAGS Y VERSIONES EN GIT GITHUB
+git log --all -> Nos mostrara todo lo que hemos hecho historicamente
+
+git log --all --graph -> Nos muestra unas rayas de como han funcionado las ramas 
+
+git log --all --graph --decorate --oneline ->toda la historia de nuestro proyecto, nos mustra todo mucho más comprimido
+
+crear un alias
+alias arbolito = "git log --all --graph --decorate --oneline"
+
+Crear un tag
+con la versión un mensaje del tag y el commit de referencia del tag
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" c533828
+
+git tag 
+Para poder los tags creados
+Los tags no son cambios
+Son utiles en git hub en el sitio web, para saber que version
