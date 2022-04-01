@@ -1,0 +1,17 @@
+clase 19
+Vamos a agregar un origen remoto de nuestros archivos
+Esto lo hacemos con 
+git remote add origin direccion del git hub https
+
+git remote -> ahora existe algo llamado origin
+si le damos 
+git remote -v
+
+git push origin main -> Git enviele al origen la rama main
+
+Integrar los cambios remotos antes de hacer un push
+En el mundo remoto no sabemos que se pudo haber hecho
+
+git pull origin master --allow-unrelated-histories
+
+De esta manera permite funcionar lo que habia alla con nuestra rama local.

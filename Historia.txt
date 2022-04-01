@@ -1,4 +1,11 @@
+Cuando instalemos git en un ordenador lo primero que vamos a hacer es:
+git config --global init.defaultBranch main
+para que nuestra rama master siempre se llame main
 git init - para crear un nuevo repositorio
+git checkout master -> asegurarnos que estamos en nuestra rama master
+git branch -m main -> cambiamos el nombre de nuestra rama master a main para que futuramente nos nos genere 
+ningun error
+
 git status - para ver el estado actual del repositorio
 git log <file> - para ver la información del repositorio, como autor y techa
 git config - para editar las variables de entorno de github como usuario e email
