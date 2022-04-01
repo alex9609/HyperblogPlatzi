@@ -74,3 +74,13 @@ git tag
 Para poder los tags creados
 Los tags no son cambios
 Son utiles en git hub en el sitio web, para saber que version
+
+
+git push origing --tags  -> Le envio a github todos los tags
+
+borrar un tag
+git tag -d "nombre del tag"
+La razón por la que no se borra  de manera automatica en git hub es porque los tags se pueden usar como releases es la manera en la que categorizamos que algo esta listo aunque lo borremos internamente sigue en github
+
+git push origin :refs/tags/dormido
+Es una sintaxis que borra la referencia en el origen con nuestra referencia 
