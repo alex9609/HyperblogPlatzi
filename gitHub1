@@ -37,4 +37,21 @@ COMO FUNCINOA UN MENSAJE CIFRADO CON LLAVES PUBLOCAS Y PRIVADAS
 4. El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.
 5. La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.
 
+git config -l
+para ver mi configuracion de git
 
+para cambiar el email registrado en git
+git config --global user.email "email de github"
+
+Crear la llave ssh
+ssh-keygen -t rsa -b 4096 -c "email de git hub" -> generar la llave  -t = espscificar el algotimo para generar esa llave rsa = es el algoritmo -b que tan compleja es la llave
+
+En windows revisar que el servidor de llaves ssh este prendido
+Es basicamente un programa que revise que las llaves esten corriendo
+eval $(ssh-agent -s)  evaluando que un comando se dispare
+
+Agregar la llave a nuestros sistema 
+.ssh  
+
+Agregar la llave
+ssh-add ~/.ssh/id_rsa (depende donde guardemoos la llave ssh siempre agregar la llave privada)
